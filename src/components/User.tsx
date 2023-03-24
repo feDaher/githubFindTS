@@ -30,11 +30,11 @@ const StyledFollow = styled.div`
   margin: 10px 0;
 `
 const StyledDivFollowers = styled.div`
- border-right: 1px solid white;
- padding: 5px 20px;
+  border-right: 1px solid white;
+  padding: 5px 20px;
 `
 const StyledDivFollowing = styled.div`
- padding: 5px 0;
+  padding: 5px 0px;
 `
 const StyledFF = styled.p`
   padding: 5px 10px;
@@ -43,9 +43,10 @@ const StyledFF = styled.p`
   margin-top: 5px;
 `
 const StyledLink = styled.div`
-  padding: 20px 30px;
+  margin-left: 20px;
+  padding: 1rem;
   background-color: #021b41;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 `
 
 const User = ({login, avatar_url, followers, following, location }: UserProps) => {

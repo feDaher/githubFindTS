@@ -2,6 +2,7 @@ import { UserProps } from "../types/user"
 import {MdLocationPin} from 'react-icons/md'
 import { Link } from "react-router-dom"
 import styled from "styled-components"
+import Repos from "../routes/Repos"
 
 const StyledUser = styled.div`
   background-color: #2b3566;
